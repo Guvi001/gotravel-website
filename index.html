@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Go travel - A landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Go Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ms-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#destination">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#feedback">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#subscription">Contact Us</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-light" type="submit">SignUp</button>
+              <button class="btn btn-outline-light ms-3" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner slides -->
+
+      <div id="carouselExampleCaptions" class="carousel banner slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>Enjoy With Your Club & Create Memories</h3>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-light">Explore Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>Breath Taking Destinations</h3>
+              <p>Some representative placeholder content for the second slide.</p>
+              <button class="btn btn-light">Explore Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>Experience The Travel Luxury</h3>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button class="btn btn-light">Explore Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- about us -->
+
+      <section class="about-us" id="about">
+        <div class="container p-5 ">
+            <div class="row align-items-center">
+                <div class="col-lg-6 p-3">
+                    <!-- about us contents -->
+                    <p class="text-success fw-bold">About Us</p>
+                    <h3 class="fw-bold">Our Journey is Started With a Determination To Travel All Around This World</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo accusantium eveniet! Eligendi, officia! Minima soluta maxime minus explicabo accusamus amet quaerat optio, saepe hic dolor vel iure velit enim?</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <!-- aboutus Img -->
+                    <img src="./assets/abt-us.jpg" class="img-fluid" alt="">
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- destination Section -->
+      <section class="destination" id="destination">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- title -->
+                <div class="col-lg-12 text-center p-3">
+                    <p class="text-success">Destination</p>
+                    <h3>Explore The Breath-Taking Adventures With Us</h3>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-lg-3">
+                    <!-- card-1 -->
+                    <div class="card" >
+                      <img src="./assets/des-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="text-center fw-bold">Get Into Wild In Indonesia</p>
+                        <div class="d-flex justify-content-around">
+                          <p>3Days & 4 Nights</p>
+                          <p>Rs:19,999</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="col-lg-3">
+                  <!-- card-1 -->
+                  <div class="card" >
+                    <img src="./assets/des-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="text-center fw-bold">Explore Italy</p>
+                      <div class="d-flex justify-content-around">
+                        <p>3Days & 4 Nights</p>
+                        <p>Rs:19,999</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- card-3 -->
+              <div class="col-lg-3">
+                <!-- card-1 -->
+                <div class="card" >
+                  <img src="./assets/des-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="text-center fw-bold">Be in Barcelona</p>
+                    <div class="d-flex justify-content-around">
+                      <p>3Days & 4 Nights</p>
+                      <p>Rs:19,999</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- card-4 -->
+
+            <div class="col-lg-3">
+              <!-- card-1 -->
+              <div class="card" >
+                <img src="./assets/des-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="text-center fw-bold">Welcome to Dubai</p>
+                  <div class="d-flex justify-content-around">
+                    <p>3Days & 4 Nights</p>
+                    <p>Rs:19,999</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+            </div>
+        </div>
+      </section>
+
+      <!-- customer Feedback -->
+
+      <section class="feedback" id="feedback">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 feedback-carousel ">
+              <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner text-center" >
+                  <div class="carousel-item active">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad sit illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.
+                  </p>
+                  <h4 class="name text-success">Ahmed Shezath</h4>
+                  <p>Client</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad sit illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.
+                    </p>
+                    <h4 class="name text-success">Victoria </h4>
+                    <p>Client</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad sit illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.
+                    </p>
+                    <h4 class="name text-success">Daniel Mac</h4>
+                    <p>Client</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- subscription -->
+
+      <section class="subscription d-flex align-items-center" id="subscription">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <form>
+                <div class="mb-3">
+                  <h3>Subscribe To Our News-Letter</h3>
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Agree All the Terms & Services
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-success">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <!-- footer -->
+
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 bg-success text-center text-light py-2">
+              <p>ThIs Website is Created For Educational Purposes Not For Any Commercial Use @2023</p>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+   
+
+        
+        <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js" async defer></script>
+    </body>
+</html>
